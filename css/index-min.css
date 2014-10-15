@@ -872,3 +872,21 @@ body article.contact section {
   width: 960px;
   margin: 0 auto;
 }
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body article figure {
+    display: none !important;
+  }
+}
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  body article figure {
+    display: none !important;
+  }
+}
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body article figure {
+    display: none !important;
+  }
+}
