@@ -1,0 +1,35 @@
+@import "../../lib/lesshat/build/lesshat.less";
+
+body
+{
+	margin: 0;
+
+	video
+	{
+		position: fixed; right: 0; bottom: 0; z-index: -100;
+		min-width: 100%; min-height: 100%;
+		width: auto;
+		height: auto;
+		background-size: cover;
+	}
+
+	main
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		margin: auto;
+		width: 368px;
+		height: 787px;
+		background-image: url("../img/iphone.png");
+		background-size: 100%;
+
+		&.alt
+		{
+			background-image: url("../img/iphone-alt.png");
+		}
+	}
+}

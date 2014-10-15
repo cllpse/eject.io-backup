@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width">
+
+		<title>search-results</title>
+
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/prototyping/lib/css/base.css">
+		<link rel="stylesheet" href="/prototyping/lib/css/features.css">
+		<link rel="stylesheet" href="css/index.css">
+
+		<!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+
+	<body class="scope-reset scope-bootstrap scope-facets">
+		<main>
+			<nav>
+				<ul>
+					<li>Kategori <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li><input type="checkbox" id="a" /><label for="a">Kjoler, tøj, kvinder</label></li>
+							<li><input type="checkbox" id="b" /><label for="b">Toppe, tøj, kvinder</label></li>
+							<li><input type="checkbox" id="c" /><label for="c">Bluser, tøj, kvinder</label></li>
+							<li><input type="checkbox" id="d" /><label for="d">Jakker/frakker, tøj, kvin&hellip;</label></li>
+						</ul>
+
+						<li><a href="#">Flere&hellip;</a></li>
+					</li>
+				</ul>
+
+				<ul class="open">
+					<li>Køn <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li><input type="checkbox" id="ki" /><p><span>400.000</span></p><label for="ki">Kvinder</label></li>
+							<li><input type="checkbox" id="kj" /><p><span>80.600</span></p><label for="kj">Mænd</label></li>
+							<li><input type="checkbox" id="kk" /><p><span>26.000</span></p><label for="kk">Børn</label></li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul class="open">
+					<li>Varetype <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li><input type="checkbox" id="e" /><label for="e">Kjoler</label></li>
+							<li><input type="checkbox" id="f" /><label for="f">Bluser</label></li>
+							<li><input type="checkbox" id="g" /><label for="g">Bukser</label></li>
+							<li><input type="checkbox" id="h" /><label for="h">Toppe</label></li>
+							<li><input type="checkbox" id="hhh" /><label for="hhh">Homewear</label></li>
+							<li><input type="checkbox" id="hh" /><label for="hh">Heels, sko, støvler</label></li>
+							<li><input type="checkbox" id="hhhh" /><label for="hhhh">Jakker, frakker, overtøj</label></li>
+						</ul>
+
+						<li><a href="#">Flere&hellip;</a></li>
+					</li>
+				</ul>
+
+				<ul class="open">
+					<li>Mærke <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li><input type="checkbox" id="i" /><p><span>1.500</span></p><label for="i">Acne</label></li>
+							<li><input type="checkbox" id="j" /><p><span>22.100</span></p><label for="j">Chanel</label></li>
+							<li><input type="checkbox" id="k" /><p><span>4.000</span></p><label for="k">By Marlene Birger</label></li>
+							<li><input type="checkbox" id="l" /><p><span>1.780</span></p><label for="l">Mulberry</label></li>
+							<li><input type="checkbox" id="ll" /><p><span>1.300</span></p><label for="ll">Balenciaga</label></li>
+							<li><input type="checkbox" id="lll" /><p><span>300</span></p><label for="lll">Isabel Marant</label></li>
+							<li><input type="checkbox" id="llll" /><p><span>120</span></p><label for="llll">Odd Molly</label></li>
+							<li><input type="checkbox" id="lllll" /><p><span>99.100.200</span></p><label for="lllll">Moss Copenhagen</label></li>
+							<li><input type="checkbox" id="llllll" /><p><span>17.600</span></p><label for="llllll">HAY</label></li>
+							<li><input type="checkbox" id="lllllll" /><p><span>1.100</span></p><label for="lllllll">Ganni</label></li>
+						</ul>
+
+						<li><a href="#">Flere&hellip;</a></li>
+					</li>
+				</ul>
+
+				<ul>
+					<li>Farve <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li class="placeholder"><img src="img/colors.png" class="colors" /></li>
+						</ul>
+
+						<li><a href="#">Flere&hellip;</a></li>
+					</li>
+				</ul>
+
+				<ul>
+					<li>Stand <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li><input type="checkbox" id="q" /><label for="q">Aldrig brugt</label></li>
+							<li><input type="checkbox" id="r" /><label for="r">Næsten som ny</label></li>
+							<li><input type="checkbox" id="s" /><label for="s">God men brugt</label></li>
+							<li><input type="checkbox" id="t" /><label for="t">Slidt</label></li>
+							<li><input type="checkbox" id="u" /><label for="u">Ikke oplyst</label></li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul>
+					<li>Pris <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li class="placeholder"><img src="img/pricerange.png" /></li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul>
+					<li>Afstand <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li class="placeholder">
+								<img src="img/distance.png" />
+
+								<form class="form-inline" role="form">
+									<div class="form-group">
+										<div class="radio">
+											<label>
+												<input type="radio" name="distance" id="distancea" value="0" checked>
+												<span>Brug adressen jeg har gemt på Trendsales</span>
+											</label>
+										</div>
+
+										<div class="radio">
+											<label>
+												<input type="radio" name="distance" id="distanceb" value="1">
+												<span>Angiv postnummer</span>
+											</label>
+										</div>
+
+										<div class="form-group">
+											<input type="text" id="zipcode" name="zipcode" class="form-control input-sm" placeholder="Indtast postnummer">
+										</div>
+									</div>
+								</form>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul>
+					<li>Bruger <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i></li>
+					<li>
+						<ul>
+							<li class="placeholder">
+								<form class="form-inline" role="form">
+									<div class="form-group">
+										<input type="text" id="username" name="username" class="form-control input-sm" placeholder="Indtast brugernavn">
+									</div>
+								</form>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</main>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script src="/prototyping/lib/js/auxiliary.js"></script>
+		<script src="/prototyping/lib/x-tag/core/dist/x-tag-core.min.js"></script>
+		<script src="/prototyping/lib/js/custom-elements.js"></script>
+		<script src="/prototyping/lib/js/feature-toggler.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

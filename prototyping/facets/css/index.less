@@ -1,0 +1,229 @@
+@import "../../lib/lesshat/build/lesshat.less";
+
+body.scope-facets
+{
+	nav
+	{
+		margin: 0 auto;
+		margin-top: -15px;
+		margin-bottom: 60px;
+		width: 186px;
+		border: solid 1px #ccc;
+		border-radius: 5px;
+		background-color: #fff;
+
+		ul
+		{
+			margin: 0 !important;
+			padding: 0;
+			padding: 15px 5px;
+			border-bottom: solid 1px #f0f0f0;
+			background-color: #f9f9f9;
+			list-style: none;
+
+			i
+			{
+				display: none;
+				float: right;
+				margin-top: 4px;
+				margin-right: 10px;
+
+				&.fa-caret-right
+				{
+					display: inline;
+				}
+			}
+
+			&.open
+			{
+				background-color: #fff;
+
+				i
+				{
+					display: none;
+
+					&.fa-caret-down
+					{
+						display: inline;
+					}
+				}
+
+				ul
+				{
+					display: block;
+				}
+
+				a
+				{
+					display: inline;
+				}
+			}
+
+			+ ul
+			{
+				border-top: solid 1px #fff;
+			}
+
+
+			li
+			{
+				font-weight: 700;
+				font-size: 14px;
+				font-family: Verdana;
+				line-height: 14px * 1.48;
+				cursor: pointer;
+
+				a
+				{
+					display: none;
+					margin-left: 19px;
+					color: #8a7f62;
+					font-weight: 400;
+					font-size: 11px;
+
+					&:hover
+					{
+						color: #6a5f43;
+					}
+				}
+			}
+
+			ul
+			{
+				display: none;
+				margin-top: 5px !important;
+				padding: 0;
+				width: auto;
+				border-top: 0;
+				border-bottom: 0; /* o */
+				background-color: transparent; /* o */
+
+				li
+				{
+					margin-top: 0;
+					color: #333;
+					font-size: 11px;
+
+					&.placeholder
+					{
+						&:hover
+						{
+							background-color: transparent;
+						}
+
+						img
+						{
+							margin-top: 5px;
+							margin-left: 4px;
+
+							&.colors
+							{
+								margin-bottom: 5px;
+								margin-left: 10px;
+							}
+						}
+
+						div.form-group
+						{
+							margin-top: 10px;
+
+							div.radio
+							{
+								margin-top: 10px;
+								clear: both !important;
+
+								label
+								{
+									margin: 0;
+
+									input
+									{
+										float: left;
+										display: block;
+										margin-top: 5px;
+									}
+
+									span
+									{
+										display: block;
+										margin-left: 25px;
+										line-height: 11px * 1.48;
+										margin-top: -3px;
+									}
+								}
+							}
+
+							input#zipcode
+							{
+								display: none !important;
+
+								&.active
+								{
+									display: block !important;
+								}
+							}
+
+							input.input-sm
+							{
+								width: 173px;
+							}
+						}
+					}
+
+					&:hover
+					{
+						background-color: #f1f1f1;
+
+						p
+						{
+							display: inline-block;
+						}
+					}
+
+					input
+					{
+						display: inline-block;
+						margin: 0 !important;
+						outline: 0 !important;
+					}
+
+					label
+					{
+						margin: 0;
+						margin-left: 5px;
+						font-weight: 400;
+						cursor: pointer;
+
+						&::selection
+						{
+							background: #f9f9f9;
+						}
+
+						&::-moz-selection
+						{
+							background: #f9f9f9;
+						}
+					}
+
+					p
+					{
+						position: absolute;
+						display: none;
+						margin-left: 81px;
+						width: 80px;
+						text-align: right;
+
+						span
+						{
+							padding: 0 5px;
+							padding-left: 10px;
+							background-color: #f1f1f1;
+							color: #bbb;
+							font-weight: 400;
+						}
+					}
+				}
+			}
+		}
+	}
+}

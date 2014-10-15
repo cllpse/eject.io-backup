@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width">
+
+		<title>search-results</title>
+
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/prototyping/lib/css/base.css">
+		<link rel="stylesheet" href="/prototyping/lib/css/features.css">
+		<link rel="stylesheet" href="css/index.css">
+
+		<!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+
+	<body class="scope-reset scope-bootstrap scope-search-results-reboot">
+		<main>
+			<nav class="filters">
+				<div class="btn-group">
+					<button type="button" class="btn btn-default active">48</button>
+					<button type="button" class="btn btn-default">64</button>
+					<button type="button" class="btn btn-default">96</button>
+				</div>
+
+				<label>resultater per side</label>
+
+				<div class="pull-right">
+					<label>Sortering</label>
+
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							antal besvarelser <i class="fa fa-caret-down"></i></span>
+						</button>
+
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#"><i class="fa fa-angle-up"></i> oprettelsesdato <span>nyeste først</span></a></li>
+							<li><a href="#"><i class="fa fa-angle-down"></i> oprettelsesdato <span>ældste først</span></a></li>
+							<li class="divider"></li>
+							<li><a href="#"><i class="fa fa-angle-up"></i> pris <span>laveste først</span></a></li>
+							<li><a href="#"><i class="fa fa-angle-down"></i> pris <span>højeste først</span></a></li>
+							<li class="divider"></li>
+							<li><a href="#"><i class="fa fa-angle-up"></i> størrelse <span>laveste først</span></a></li>
+							<li><a href="#"><i class="fa fa-angle-down"></i> størrelse <span>højeste først</span></a></li>
+							<li class="divider"></li>
+							<li><a href="#"><i class="fa fa-angle-up"></i> antal bevarelser <span>fleste først</span></a></li>
+							<li><a href="#"><i class="fa fa-angle-down"></i> antal bevarelser <span>færreste først</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<nav class="tabs">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">Alle<span>31.300</span></a></li>
+					<li><a href="#">Bazar<span>4.177</span></a></a></li>
+					<li><a href="#">Shops<span>103</span></a></a></li>
+				</ul>
+			</nav>
+
+			<p-feature name="cross-border">
+				<nav class="countries">
+					<i class="fa fa-globe"></i>
+
+					<menu>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" checked>Danmark
+							</label>
+						</div>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" checked>Tyskland
+							</label>
+						</div>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox">Sverige
+							</label>
+						</div>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox">Norge
+							</label>
+						</div>
+					</menu>
+				</nav>
+			</p-feature>
+
+			<section>
+				<article class="bid-only-listing">
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Dette er en erhvervsannonce" class="shops">Shops</abbr>
+						</div>
+
+						<h2>Dixie stillet</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/a.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>37, brun</span></p>
+					</div>
+				</article>
+
+				<article class="bid-only-listing">
+					<div class="top-panel">
+						<h2>H&amp;M</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results/img/b.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>38, koralrød</span></p>
+
+						<p class="price">
+							<span>Der er budt 300,00</span>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Du kan købe denne vare med det samme, uden at byde" class="buy-now">Køb Nu</abbr>
+						</div>
+
+						<h2>Hummel</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/c.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>41, dark cognac</span></p>
+
+						<p class="price">
+							<span>800,00</span>
+							<span>399,00</span>
+							<span>-50%</span>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Dette er en erhvervsannonce" class="shops">Shops</abbr>
+						</div>
+
+						<h2>HUB Footwear</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/d.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>42, sort</span></p>
+
+						<p class="price">
+							<span>1.100,00</span>
+							<span>500,00</span>
+							<span>-55%</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="mosaic">
+					<div class="top-panel">
+						<h2>Chanel</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/i.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>40.5, rød</span></p>
+
+						<p class="price">
+							<span>3.500,00</span>
+							<span>2.500,00</span>
+							<span>-29%</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="mosaic mosaic-fullpage">
+					<div class="top-panel">
+						<h2>Christian Louboutin</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/m.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>37, sort</span></p>
+
+						<p class="price">
+							<span>4.700,00</span>
+							<span>2.500,00</span>
+							<span>-47%</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="mosaic mosaic-spotlight">
+					<h2>Trendsales Spotlight</h2>
+
+					<div class="listing">
+						<h3>ASTA Fur</h3>
+
+						<div class="image">
+							<img src="/prototyping/search-results-reboot/img/n.jpg" />
+						</div>
+
+						<summary>
+							<p class="size"><span>Brun og hvid, 40x40</span></p>
+
+							<p class="price"><span>250,00</span></p>
+						</summary>
+					</div>
+
+					<div class="listing">
+						<h3>Louis Vuitton</h3>
+
+						<div class="image">
+							<img src="/prototyping/search-results-reboot/img/o.jpg" />
+						</div>
+
+						<summary>
+							<p class="size"><span>Stor, Monogram</span></p>
+
+							<p class="price"><span>Byd på denne annonce</span></p>
+						</summary>
+					</div>
+
+					<div class="listing">
+						<h3>Seduce, loftet</h3>
+
+						<div class="image">
+							<img src="/prototyping/search-results-reboot/img/p.jpg" />
+						</div>
+
+						<summary>
+							<p class="size"><span>One&ndash;size</span></p>
+
+							<p class="price"><span>Byd på denne annonce</span></p>
+						</summary>
+					</div>
+
+					<div class="listing">
+						<h3>WoMaGe</h3>
+
+						<div class="image">
+							<img src="/prototyping/search-results-reboot/img/r.jpg" />
+						</div>
+
+						<summary>
+							<p class="size"><span>One&ndash;size, rød</span></p>
+
+							<p class="price"><span>50,00</span></p>
+						</summary>
+					</div>
+				</article>
+
+				<article>
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Du kan købe denne vare med det samme, uden at byde" class="buy-now">Køb Nu</abbr>
+						</div>
+
+						<h2>Dorothy Perkins</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/e.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>41, dark cognac</span></p>
+
+						<p class="price">
+							<span>250,00</span>
+							<span>140,00</span>
+							<span>-44%</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="no-purchase-price">
+					<div class="top-panel">
+						<h2>Apair &ndash; wedges kilehæl sandal</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/f.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>38</span></p>
+
+						<p class="price">
+							<span>500,00</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="mosaic">
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Du kan købe denne vare med det samme, uden at byde" class="buy-now">Køb Nu</abbr>
+						</div>
+
+						<h2>Arpair</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/h.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>41, grå</span></p>
+
+						<p class="price">
+							<span>1.800,00</span>
+							<span>400,00</span>
+							<span>-78%</span>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Du kan købe denne vare med det samme, uden at byde" class="buy-now">Køb Nu</abbr>
+						</div>
+
+						<h2>By Marlene Birger</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/u.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>27/5, grøn</span></p>
+
+						<p class="price">
+							<span>3.000,00</span>
+							<span>900,00</span>
+							<span>-70%</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="bid-only-listing">
+					<div class="top-panel">
+						<h2>Louis Vuitton</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/s.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>38, champagne</span></p>
+
+						<p class="price">
+							<span>Der er budt 750,00</span>
+						</p>
+					</div>
+				</article>
+
+				<article>
+					<div class="top-panel">
+						<h2>Emporio Armani</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/t.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>28, mørkbrun/kirsebær</span></p>
+
+						<p class="price">
+							<span>2.100,00</span>
+							<span>1.200,00</span>
+							<span>-43%</span>
+						</p>
+					</div>
+				</article>
+
+				<article class="no-purchase-price">
+					<div class="top-panel">
+						<div class="badges">
+							<abbr title="Du kan købe denne vare med det samme, uden at byde" class="buy-now">Køb Nu</abbr>
+						</div>
+
+						<h2>Filippa K</h2>
+					</div>
+
+					<div class="image">
+						<img src="/prototyping/search-results-reboot/img/g.jpg" />
+					</div>
+
+					<div class="bottom-panel-actions">
+						<button type="button" class="btn btn-info"><i class="fa fa-bookmark-o"></i></button>
+						<button type="button" class="btn btn-info"><i class="fa fa-eye"></i></button>
+					</div>
+
+					<div class="bottom-panel">
+						<p class="size"><span>38, sort</span></p>
+
+						<p class="price">
+							<span>600,00</span>
+						</p>
+					</div>
+				</article>
+			</section>
+		</main>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="/prototyping/lib/js/auxiliary.js"></script>
+		<script src="/prototyping/lib/x-tag/core/dist/x-tag-core.min.js"></script>
+		<script src="/prototyping/lib/js/custom-elements.js"></script>
+		<script src="/prototyping/lib/js/feature-toggler.js"></script>
+		<script src="/prototyping/lib/imgLiquid/js/imgLiquid.js"></script>
+		<script src="/prototyping/lib/bootstrap/js/dropdown.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

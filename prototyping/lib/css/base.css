@@ -1,0 +1,2354 @@
+.scope-reset {
+  /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+}
+.scope-reset *,
+.scope-reset *:before,
+.scope-reset *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.scope-reset article,
+.scope-reset aside,
+.scope-reset details,
+.scope-reset figcaption,
+.scope-reset figure,
+.scope-reset footer,
+.scope-reset header,
+.scope-reset hgroup,
+.scope-reset main,
+.scope-reset nav,
+.scope-reset section,
+.scope-reset summary {
+  display: block;
+}
+.scope-reset audio,
+.scope-reset canvas,
+.scope-reset video {
+  display: inline-block;
+}
+.scope-reset audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.scope-reset [hidden],
+.scope-reset template {
+  display: none;
+}
+.scope-reset html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.scope-reset body {
+  margin: 0;
+}
+.scope-reset a {
+  background: transparent;
+}
+.scope-reset a:focus {
+  outline: thin dotted;
+}
+.scope-reset a:active,
+.scope-reset a:hover {
+  outline: 0;
+}
+.scope-reset h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.scope-reset abbr[title] {
+  border-bottom: 1px dotted;
+}
+.scope-reset b,
+.scope-reset strong {
+  font-weight: bold;
+}
+.scope-reset dfn {
+  font-style: italic;
+}
+.scope-reset hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.scope-reset mark {
+  background: #ff0;
+  color: #000;
+}
+.scope-reset code,
+.scope-reset kbd,
+.scope-reset pre,
+.scope-reset samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+.scope-reset pre {
+  white-space: pre-wrap;
+}
+.scope-reset q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+.scope-reset small {
+  font-size: 80%;
+}
+.scope-reset sub,
+.scope-reset sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.scope-reset sup {
+  top: -0.5em;
+}
+.scope-reset sub {
+  bottom: -0.25em;
+}
+.scope-reset img {
+  border: 0;
+}
+.scope-reset svg:not(:root) {
+  overflow: hidden;
+}
+.scope-reset figure {
+  margin: 0;
+}
+.scope-reset fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.scope-reset legend {
+  border: 0;
+  padding: 0;
+}
+.scope-reset button,
+.scope-reset input,
+.scope-reset select,
+.scope-reset textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+.scope-reset button,
+.scope-reset input {
+  line-height: normal;
+}
+.scope-reset button,
+.scope-reset select {
+  text-transform: none;
+}
+.scope-reset button,
+.scope-reset html input[type="button"],
+.scope-reset input[type="reset"],
+.scope-reset input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.scope-reset button[disabled],
+.scope-reset html input[disabled] {
+  cursor: default;
+}
+.scope-reset input[type="checkbox"],
+.scope-reset input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.scope-reset input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.scope-reset input[type="search"]::-webkit-search-cancel-button,
+.scope-reset input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.scope-reset button::-moz-focus-inner,
+.scope-reset input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.scope-reset textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+.scope-reset table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.scope-bootstrap *,
+.scope-bootstrap *:before,
+.scope-bootstrap *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.scope-bootstrap html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.scope-bootstrap body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+.scope-bootstrap input,
+.scope-bootstrap button,
+.scope-bootstrap select,
+.scope-bootstrap textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.scope-bootstrap a {
+  color: #428bca;
+  text-decoration: none;
+}
+.scope-bootstrap a:hover,
+.scope-bootstrap a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+.scope-bootstrap a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.scope-bootstrap img {
+  vertical-align: middle;
+}
+.scope-bootstrap .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.scope-bootstrap .img-rounded {
+  border-radius: 6px;
+}
+.scope-bootstrap .img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.scope-bootstrap .img-circle {
+  border-radius: 50%;
+}
+.scope-bootstrap hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.scope-bootstrap .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.scope-bootstrap p {
+  margin: 0 0 10px;
+}
+.scope-bootstrap .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .lead {
+    font-size: 21px;
+  }
+}
+.scope-bootstrap small,
+.scope-bootstrap .small {
+  font-size: 85%;
+}
+.scope-bootstrap cite {
+  font-style: normal;
+}
+.scope-bootstrap .text-muted {
+  color: #999999;
+}
+.scope-bootstrap .text-primary {
+  color: #428bca;
+}
+.scope-bootstrap .text-primary:hover {
+  color: #3071a9;
+}
+.scope-bootstrap .text-warning {
+  color: #c09853;
+}
+.scope-bootstrap .text-warning:hover {
+  color: #a47e3c;
+}
+.scope-bootstrap .text-danger {
+  color: #b94a48;
+}
+.scope-bootstrap .text-danger:hover {
+  color: #953b39;
+}
+.scope-bootstrap .text-success {
+  color: #468847;
+}
+.scope-bootstrap .text-success:hover {
+  color: #356635;
+}
+.scope-bootstrap .text-info {
+  color: #3a87ad;
+}
+.scope-bootstrap .text-info:hover {
+  color: #2d6987;
+}
+.scope-bootstrap .text-left {
+  text-align: left;
+}
+.scope-bootstrap .text-right {
+  text-align: right;
+}
+.scope-bootstrap .text-center {
+  text-align: center;
+}
+.scope-bootstrap h1,
+.scope-bootstrap h2,
+.scope-bootstrap h3,
+.scope-bootstrap h4,
+.scope-bootstrap h5,
+.scope-bootstrap h6,
+.scope-bootstrap .h1,
+.scope-bootstrap .h2,
+.scope-bootstrap .h3,
+.scope-bootstrap .h4,
+.scope-bootstrap .h5,
+.scope-bootstrap .h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.scope-bootstrap h1 small,
+.scope-bootstrap h2 small,
+.scope-bootstrap h3 small,
+.scope-bootstrap h4 small,
+.scope-bootstrap h5 small,
+.scope-bootstrap h6 small,
+.scope-bootstrap .h1 small,
+.scope-bootstrap .h2 small,
+.scope-bootstrap .h3 small,
+.scope-bootstrap .h4 small,
+.scope-bootstrap .h5 small,
+.scope-bootstrap .h6 small,
+.scope-bootstrap h1 .small,
+.scope-bootstrap h2 .small,
+.scope-bootstrap h3 .small,
+.scope-bootstrap h4 .small,
+.scope-bootstrap h5 .small,
+.scope-bootstrap h6 .small,
+.scope-bootstrap .h1 .small,
+.scope-bootstrap .h2 .small,
+.scope-bootstrap .h3 .small,
+.scope-bootstrap .h4 .small,
+.scope-bootstrap .h5 .small,
+.scope-bootstrap .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+.scope-bootstrap h1,
+.scope-bootstrap h2,
+.scope-bootstrap h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.scope-bootstrap h1 small,
+.scope-bootstrap h2 small,
+.scope-bootstrap h3 small,
+.scope-bootstrap h1 .small,
+.scope-bootstrap h2 .small,
+.scope-bootstrap h3 .small {
+  font-size: 65%;
+}
+.scope-bootstrap h4,
+.scope-bootstrap h5,
+.scope-bootstrap h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.scope-bootstrap h4 small,
+.scope-bootstrap h5 small,
+.scope-bootstrap h6 small,
+.scope-bootstrap h4 .small,
+.scope-bootstrap h5 .small,
+.scope-bootstrap h6 .small {
+  font-size: 75%;
+}
+.scope-bootstrap h1,
+.scope-bootstrap .h1 {
+  font-size: 36px;
+}
+.scope-bootstrap h2,
+.scope-bootstrap .h2 {
+  font-size: 30px;
+}
+.scope-bootstrap h3,
+.scope-bootstrap .h3 {
+  font-size: 24px;
+}
+.scope-bootstrap h4,
+.scope-bootstrap .h4 {
+  font-size: 18px;
+}
+.scope-bootstrap h5,
+.scope-bootstrap .h5 {
+  font-size: 14px;
+}
+.scope-bootstrap h6,
+.scope-bootstrap .h6 {
+  font-size: 12px;
+}
+.scope-bootstrap .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.scope-bootstrap ul,
+.scope-bootstrap ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.scope-bootstrap ul ul,
+.scope-bootstrap ol ul,
+.scope-bootstrap ul ol,
+.scope-bootstrap ol ol {
+  margin-bottom: 0;
+}
+.scope-bootstrap .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.scope-bootstrap .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.scope-bootstrap .list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.scope-bootstrap .list-inline > li:first-child {
+  padding-left: 0;
+}
+.scope-bootstrap dl {
+  margin-bottom: 20px;
+}
+.scope-bootstrap dt,
+.scope-bootstrap dd {
+  line-height: 1.428571429;
+}
+.scope-bootstrap dt {
+  font-weight: bold;
+}
+.scope-bootstrap dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .scope-bootstrap .dl-horizontal dd {
+    margin-left: 180px;
+  }
+  .scope-bootstrap .dl-horizontal dd:before,
+  .scope-bootstrap .dl-horizontal dd:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+  .scope-bootstrap .dl-horizontal dd:after {
+    clear: both;
+  }
+}
+.scope-bootstrap abbr[title],
+.scope-bootstrap abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+.scope-bootstrap abbr.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+.scope-bootstrap blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+.scope-bootstrap blockquote p {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+.scope-bootstrap blockquote p:last-child {
+  margin-bottom: 0;
+}
+.scope-bootstrap blockquote small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999999;
+}
+.scope-bootstrap blockquote small:before {
+  content: '\2014 \00A0';
+}
+.scope-bootstrap blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+}
+.scope-bootstrap blockquote.pull-right p,
+.scope-bootstrap blockquote.pull-right small,
+.scope-bootstrap blockquote.pull-right .small {
+  text-align: right;
+}
+.scope-bootstrap blockquote.pull-right small:before,
+.scope-bootstrap blockquote.pull-right .small:before {
+  content: '';
+}
+.scope-bootstrap blockquote.pull-right small:after,
+.scope-bootstrap blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+.scope-bootstrap blockquote:before,
+.scope-bootstrap blockquote:after {
+  content: "";
+}
+.scope-bootstrap address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.428571429;
+}
+.scope-bootstrap fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.scope-bootstrap legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.scope-bootstrap label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.scope-bootstrap input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.scope-bootstrap input[type="radio"],
+.scope-bootstrap input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+}
+.scope-bootstrap input[type="file"] {
+  display: block;
+}
+.scope-bootstrap select[multiple],
+.scope-bootstrap select[size] {
+  height: auto;
+}
+.scope-bootstrap select optgroup {
+  font-size: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+.scope-bootstrap input[type="file"]:focus,
+.scope-bootstrap input[type="radio"]:focus,
+.scope-bootstrap input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.scope-bootstrap input[type="number"]::-webkit-outer-spin-button,
+.scope-bootstrap input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+}
+.scope-bootstrap output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+}
+.scope-bootstrap .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.scope-bootstrap .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.scope-bootstrap .form-control:-moz-placeholder {
+  color: #999999;
+}
+.scope-bootstrap .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.scope-bootstrap .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.scope-bootstrap .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+.scope-bootstrap .form-control[disabled],
+.scope-bootstrap .form-control[readonly],
+fieldset[disabled] .scope-bootstrap .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+textarea.scope-bootstrap .form-control {
+  height: auto;
+}
+.scope-bootstrap .form-group {
+  margin-bottom: 15px;
+}
+.scope-bootstrap .radio,
+.scope-bootstrap .checkbox {
+  display: block;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+.scope-bootstrap .radio label,
+.scope-bootstrap .checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.scope-bootstrap .radio input[type="radio"],
+.scope-bootstrap .radio-inline input[type="radio"],
+.scope-bootstrap .checkbox input[type="checkbox"],
+.scope-bootstrap .checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+.scope-bootstrap .radio + .radio,
+.scope-bootstrap .checkbox + .checkbox {
+  margin-top: -5px;
+}
+.scope-bootstrap .radio-inline,
+.scope-bootstrap .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+.scope-bootstrap .radio-inline + .radio-inline,
+.scope-bootstrap .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+.scope-bootstrap input[type="radio"][disabled],
+.scope-bootstrap input[type="checkbox"][disabled],
+.scope-bootstrap .radio[disabled],
+.scope-bootstrap .radio-inline[disabled],
+.scope-bootstrap .checkbox[disabled],
+.scope-bootstrap .checkbox-inline[disabled],
+fieldset[disabled] .scope-bootstrap input[type="radio"],
+fieldset[disabled] .scope-bootstrap input[type="checkbox"],
+fieldset[disabled] .scope-bootstrap .radio,
+fieldset[disabled] .scope-bootstrap .radio-inline,
+fieldset[disabled] .scope-bootstrap .checkbox,
+fieldset[disabled] .scope-bootstrap .checkbox-inline {
+  cursor: not-allowed;
+}
+.scope-bootstrap .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select.scope-bootstrap .input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+textarea.scope-bootstrap .input-sm {
+  height: auto;
+}
+.scope-bootstrap .input-lg {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+select.scope-bootstrap .input-lg {
+  height: 45px;
+  line-height: 45px;
+}
+textarea.scope-bootstrap .input-lg {
+  height: auto;
+}
+.scope-bootstrap .has-warning .help-block,
+.scope-bootstrap .has-warning .control-label,
+.scope-bootstrap .has-warning .radio,
+.scope-bootstrap .has-warning .checkbox,
+.scope-bootstrap .has-warning .radio-inline,
+.scope-bootstrap .has-warning .checkbox-inline {
+  color: #c09853;
+}
+.scope-bootstrap .has-warning .form-control {
+  border-color: #c09853;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .has-warning .form-control:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+}
+.scope-bootstrap .has-warning .input-group-addon {
+  color: #c09853;
+  border-color: #c09853;
+  background-color: #fcf8e3;
+}
+.scope-bootstrap .has-error .help-block,
+.scope-bootstrap .has-error .control-label,
+.scope-bootstrap .has-error .radio,
+.scope-bootstrap .has-error .checkbox,
+.scope-bootstrap .has-error .radio-inline,
+.scope-bootstrap .has-error .checkbox-inline {
+  color: #b94a48;
+}
+.scope-bootstrap .has-error .form-control {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .has-error .form-control:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+.scope-bootstrap .has-error .input-group-addon {
+  color: #b94a48;
+  border-color: #b94a48;
+  background-color: #f2dede;
+}
+.scope-bootstrap .has-success .help-block,
+.scope-bootstrap .has-success .control-label,
+.scope-bootstrap .has-success .radio,
+.scope-bootstrap .has-success .checkbox,
+.scope-bootstrap .has-success .radio-inline,
+.scope-bootstrap .has-success .checkbox-inline {
+  color: #468847;
+}
+.scope-bootstrap .has-success .form-control {
+  border-color: #468847;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .has-success .form-control:focus {
+  border-color: #356635;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+}
+.scope-bootstrap .has-success .input-group-addon {
+  color: #468847;
+  border-color: #468847;
+  background-color: #dff0d8;
+}
+.scope-bootstrap .form-control-static {
+  margin-bottom: 0;
+}
+.scope-bootstrap .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .scope-bootstrap .form-inline .form-control {
+    display: inline-block;
+  }
+  .scope-bootstrap .form-inline .radio,
+  .scope-bootstrap .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .scope-bootstrap .form-inline .radio input[type="radio"],
+  .scope-bootstrap .form-inline .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+.scope-bootstrap .form-horizontal .control-label,
+.scope-bootstrap .form-horizontal .radio,
+.scope-bootstrap .form-horizontal .checkbox,
+.scope-bootstrap .form-horizontal .radio-inline,
+.scope-bootstrap .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+.scope-bootstrap .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.scope-bootstrap .form-horizontal .form-group:before,
+.scope-bootstrap .form-horizontal .form-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.scope-bootstrap .form-horizontal .form-group:after {
+  clear: both;
+}
+.scope-bootstrap .form-horizontal .form-control-static {
+  padding-top: 7px;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .form-horizontal .control-label {
+    text-align: right;
+  }
+}
+.scope-bootstrap .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.scope-bootstrap .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.scope-bootstrap .btn:hover,
+.scope-bootstrap .btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+.scope-bootstrap .btn:active,
+.scope-bootstrap .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.scope-bootstrap .btn.disabled,
+.scope-bootstrap .btn[disabled],
+fieldset[disabled] .scope-bootstrap .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.scope-bootstrap .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.scope-bootstrap .btn-default:hover,
+.scope-bootstrap .btn-default:focus,
+.scope-bootstrap .btn-default:active,
+.scope-bootstrap .btn-default.active,
+.open .dropdown-toggle.scope-bootstrap .btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+.scope-bootstrap .btn-default:active,
+.scope-bootstrap .btn-default.active,
+.open .dropdown-toggle.scope-bootstrap .btn-default {
+  background-image: none;
+}
+.scope-bootstrap .btn-default.disabled,
+.scope-bootstrap .btn-default[disabled],
+fieldset[disabled] .scope-bootstrap .btn-default,
+.scope-bootstrap .btn-default.disabled:hover,
+.scope-bootstrap .btn-default[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-default:hover,
+.scope-bootstrap .btn-default.disabled:focus,
+.scope-bootstrap .btn-default[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-default:focus,
+.scope-bootstrap .btn-default.disabled:active,
+.scope-bootstrap .btn-default[disabled]:active,
+fieldset[disabled] .scope-bootstrap .btn-default:active,
+.scope-bootstrap .btn-default.disabled.active,
+.scope-bootstrap .btn-default[disabled].active,
+fieldset[disabled] .scope-bootstrap .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.scope-bootstrap .btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.scope-bootstrap .btn-primary:hover,
+.scope-bootstrap .btn-primary:focus,
+.scope-bootstrap .btn-primary:active,
+.scope-bootstrap .btn-primary.active,
+.open .dropdown-toggle.scope-bootstrap .btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.scope-bootstrap .btn-primary:active,
+.scope-bootstrap .btn-primary.active,
+.open .dropdown-toggle.scope-bootstrap .btn-primary {
+  background-image: none;
+}
+.scope-bootstrap .btn-primary.disabled,
+.scope-bootstrap .btn-primary[disabled],
+fieldset[disabled] .scope-bootstrap .btn-primary,
+.scope-bootstrap .btn-primary.disabled:hover,
+.scope-bootstrap .btn-primary[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-primary:hover,
+.scope-bootstrap .btn-primary.disabled:focus,
+.scope-bootstrap .btn-primary[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-primary:focus,
+.scope-bootstrap .btn-primary.disabled:active,
+.scope-bootstrap .btn-primary[disabled]:active,
+fieldset[disabled] .scope-bootstrap .btn-primary:active,
+.scope-bootstrap .btn-primary.disabled.active,
+.scope-bootstrap .btn-primary[disabled].active,
+fieldset[disabled] .scope-bootstrap .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.scope-bootstrap .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.scope-bootstrap .btn-warning:hover,
+.scope-bootstrap .btn-warning:focus,
+.scope-bootstrap .btn-warning:active,
+.scope-bootstrap .btn-warning.active,
+.open .dropdown-toggle.scope-bootstrap .btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+.scope-bootstrap .btn-warning:active,
+.scope-bootstrap .btn-warning.active,
+.open .dropdown-toggle.scope-bootstrap .btn-warning {
+  background-image: none;
+}
+.scope-bootstrap .btn-warning.disabled,
+.scope-bootstrap .btn-warning[disabled],
+fieldset[disabled] .scope-bootstrap .btn-warning,
+.scope-bootstrap .btn-warning.disabled:hover,
+.scope-bootstrap .btn-warning[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-warning:hover,
+.scope-bootstrap .btn-warning.disabled:focus,
+.scope-bootstrap .btn-warning[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-warning:focus,
+.scope-bootstrap .btn-warning.disabled:active,
+.scope-bootstrap .btn-warning[disabled]:active,
+fieldset[disabled] .scope-bootstrap .btn-warning:active,
+.scope-bootstrap .btn-warning.disabled.active,
+.scope-bootstrap .btn-warning[disabled].active,
+fieldset[disabled] .scope-bootstrap .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.scope-bootstrap .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.scope-bootstrap .btn-danger:hover,
+.scope-bootstrap .btn-danger:focus,
+.scope-bootstrap .btn-danger:active,
+.scope-bootstrap .btn-danger.active,
+.open .dropdown-toggle.scope-bootstrap .btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+.scope-bootstrap .btn-danger:active,
+.scope-bootstrap .btn-danger.active,
+.open .dropdown-toggle.scope-bootstrap .btn-danger {
+  background-image: none;
+}
+.scope-bootstrap .btn-danger.disabled,
+.scope-bootstrap .btn-danger[disabled],
+fieldset[disabled] .scope-bootstrap .btn-danger,
+.scope-bootstrap .btn-danger.disabled:hover,
+.scope-bootstrap .btn-danger[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-danger:hover,
+.scope-bootstrap .btn-danger.disabled:focus,
+.scope-bootstrap .btn-danger[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-danger:focus,
+.scope-bootstrap .btn-danger.disabled:active,
+.scope-bootstrap .btn-danger[disabled]:active,
+fieldset[disabled] .scope-bootstrap .btn-danger:active,
+.scope-bootstrap .btn-danger.disabled.active,
+.scope-bootstrap .btn-danger[disabled].active,
+fieldset[disabled] .scope-bootstrap .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.scope-bootstrap .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.scope-bootstrap .btn-success:hover,
+.scope-bootstrap .btn-success:focus,
+.scope-bootstrap .btn-success:active,
+.scope-bootstrap .btn-success.active,
+.open .dropdown-toggle.scope-bootstrap .btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+.scope-bootstrap .btn-success:active,
+.scope-bootstrap .btn-success.active,
+.open .dropdown-toggle.scope-bootstrap .btn-success {
+  background-image: none;
+}
+.scope-bootstrap .btn-success.disabled,
+.scope-bootstrap .btn-success[disabled],
+fieldset[disabled] .scope-bootstrap .btn-success,
+.scope-bootstrap .btn-success.disabled:hover,
+.scope-bootstrap .btn-success[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-success:hover,
+.scope-bootstrap .btn-success.disabled:focus,
+.scope-bootstrap .btn-success[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-success:focus,
+.scope-bootstrap .btn-success.disabled:active,
+.scope-bootstrap .btn-success[disabled]:active,
+fieldset[disabled] .scope-bootstrap .btn-success:active,
+.scope-bootstrap .btn-success.disabled.active,
+.scope-bootstrap .btn-success[disabled].active,
+fieldset[disabled] .scope-bootstrap .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.scope-bootstrap .btn-info {
+  color: #ffffff;
+  background-color: #444444;
+  border-color: #373737;
+}
+.scope-bootstrap .btn-info:hover,
+.scope-bootstrap .btn-info:focus,
+.scope-bootstrap .btn-info:active,
+.scope-bootstrap .btn-info.active,
+.open .dropdown-toggle.scope-bootstrap .btn-info {
+  color: #ffffff;
+  background-color: #303030;
+  border-color: #191919;
+}
+.scope-bootstrap .btn-info:active,
+.scope-bootstrap .btn-info.active,
+.open .dropdown-toggle.scope-bootstrap .btn-info {
+  background-image: none;
+}
+.scope-bootstrap .btn-info.disabled,
+.scope-bootstrap .btn-info[disabled],
+fieldset[disabled] .scope-bootstrap .btn-info,
+.scope-bootstrap .btn-info.disabled:hover,
+.scope-bootstrap .btn-info[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-info:hover,
+.scope-bootstrap .btn-info.disabled:focus,
+.scope-bootstrap .btn-info[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-info:focus,
+.scope-bootstrap .btn-info.disabled:active,
+.scope-bootstrap .btn-info[disabled]:active,
+fieldset[disabled] .scope-bootstrap .btn-info:active,
+.scope-bootstrap .btn-info.disabled.active,
+.scope-bootstrap .btn-info[disabled].active,
+fieldset[disabled] .scope-bootstrap .btn-info.active {
+  background-color: #444444;
+  border-color: #373737;
+}
+.scope-bootstrap .btn-link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+.scope-bootstrap .btn-link,
+.scope-bootstrap .btn-link:active,
+.scope-bootstrap .btn-link[disabled],
+fieldset[disabled] .scope-bootstrap .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.scope-bootstrap .btn-link,
+.scope-bootstrap .btn-link:hover,
+.scope-bootstrap .btn-link:focus,
+.scope-bootstrap .btn-link:active {
+  border-color: transparent;
+}
+.scope-bootstrap .btn-link:hover,
+.scope-bootstrap .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.scope-bootstrap .btn-link[disabled]:hover,
+fieldset[disabled] .scope-bootstrap .btn-link:hover,
+.scope-bootstrap .btn-link[disabled]:focus,
+fieldset[disabled] .scope-bootstrap .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+.scope-bootstrap .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.scope-bootstrap .btn-sm,
+.scope-bootstrap .btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.scope-bootstrap .btn-xs {
+  padding: 1px 5px;
+}
+.scope-bootstrap .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.scope-bootstrap .btn-block + .btn-block {
+  margin-top: 5px;
+}
+.scope-bootstrap input[type="submit"].btn-block,
+.scope-bootstrap input[type="reset"].btn-block,
+.scope-bootstrap input[type="button"].btn-block {
+  width: 100%;
+}
+.scope-bootstrap .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid #000000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.scope-bootstrap .dropdown {
+  position: relative;
+}
+.scope-bootstrap .dropdown-toggle:focus {
+  outline: 0;
+}
+.scope-bootstrap .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.scope-bootstrap .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.scope-bootstrap .dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.scope-bootstrap .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+.scope-bootstrap .dropdown-menu > li > a:hover,
+.scope-bootstrap .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+.scope-bootstrap .dropdown-menu > .active > a,
+.scope-bootstrap .dropdown-menu > .active > a:hover,
+.scope-bootstrap .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}
+.scope-bootstrap .dropdown-menu > .disabled > a,
+.scope-bootstrap .dropdown-menu > .disabled > a:hover,
+.scope-bootstrap .dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+.scope-bootstrap .dropdown-menu > .disabled > a:hover,
+.scope-bootstrap .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.scope-bootstrap .open > .dropdown-menu {
+  display: block;
+}
+.scope-bootstrap .open > a {
+  outline: 0;
+}
+.scope-bootstrap .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  color: #999999;
+}
+.scope-bootstrap .dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+.scope-bootstrap .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.scope-bootstrap .dropup .caret,
+.scope-bootstrap .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid #000000;
+  content: "";
+}
+.scope-bootstrap .dropup .dropdown-menu,
+.scope-bootstrap .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+.scope-bootstrap .fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.scope-bootstrap .fade.in {
+  opacity: 1;
+}
+.scope-bootstrap .collapse {
+  display: none;
+}
+.scope-bootstrap .collapse.in {
+  display: block;
+}
+.scope-bootstrap .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+.btn-default .scope-bootstrap .caret {
+  border-top-color: #333333;
+}
+.btn-primary .scope-bootstrap .caret,
+.btn-success .scope-bootstrap .caret,
+.btn-warning .scope-bootstrap .caret,
+.btn-danger .scope-bootstrap .caret,
+.btn-info .scope-bootstrap .caret {
+  border-top-color: #fff;
+}
+.scope-bootstrap .dropup .btn-default .caret {
+  border-bottom-color: #333333;
+}
+.scope-bootstrap .dropup .btn-primary .caret,
+.scope-bootstrap .dropup .btn-success .caret,
+.scope-bootstrap .dropup .btn-warning .caret,
+.scope-bootstrap .dropup .btn-danger .caret,
+.scope-bootstrap .dropup .btn-info .caret {
+  border-bottom-color: #fff;
+}
+.scope-bootstrap .btn-group,
+.scope-bootstrap .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.scope-bootstrap .btn-group > .btn,
+.scope-bootstrap .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+.scope-bootstrap .btn-group > .btn:hover,
+.scope-bootstrap .btn-group-vertical > .btn:hover,
+.scope-bootstrap .btn-group > .btn:focus,
+.scope-bootstrap .btn-group-vertical > .btn:focus,
+.scope-bootstrap .btn-group > .btn:active,
+.scope-bootstrap .btn-group-vertical > .btn:active,
+.scope-bootstrap .btn-group > .btn.active,
+.scope-bootstrap .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+.scope-bootstrap .btn-group > .btn:focus,
+.scope-bootstrap .btn-group-vertical > .btn:focus {
+  outline: none;
+}
+.scope-bootstrap .btn-group .btn + .btn,
+.scope-bootstrap .btn-group .btn + .btn-group,
+.scope-bootstrap .btn-group .btn-group + .btn,
+.scope-bootstrap .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+.scope-bootstrap .btn-toolbar:before,
+.scope-bootstrap .btn-toolbar:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.scope-bootstrap .btn-toolbar:after {
+  clear: both;
+}
+.scope-bootstrap .btn-toolbar .btn-group {
+  float: left;
+}
+.scope-bootstrap .btn-toolbar > .btn + .btn,
+.scope-bootstrap .btn-toolbar > .btn-group + .btn,
+.scope-bootstrap .btn-toolbar > .btn + .btn-group,
+.scope-bootstrap .btn-toolbar > .btn-group + .btn-group {
+  margin-left: 5px;
+}
+.scope-bootstrap .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+.scope-bootstrap .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+.scope-bootstrap .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.scope-bootstrap .btn-group > .btn:last-child:not(:first-child),
+.scope-bootstrap .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.scope-bootstrap .btn-group > .btn-group {
+  float: left;
+}
+.scope-bootstrap .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.scope-bootstrap .btn-group > .btn-group:first-child > .btn:last-child,
+.scope-bootstrap .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.scope-bootstrap .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.scope-bootstrap .btn-group .dropdown-toggle:active,
+.scope-bootstrap .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+.scope-bootstrap .btn-group-xs > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+.scope-bootstrap .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.scope-bootstrap .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.scope-bootstrap .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.scope-bootstrap .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.scope-bootstrap .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.scope-bootstrap .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.scope-bootstrap .btn .caret {
+  margin-left: 0;
+}
+.scope-bootstrap .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+.scope-bootstrap .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+.scope-bootstrap .btn-group-vertical > .btn,
+.scope-bootstrap .btn-group-vertical > .btn-group {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+.scope-bootstrap .btn-group-vertical > .btn-group:before,
+.scope-bootstrap .btn-group-vertical > .btn-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.scope-bootstrap .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+.scope-bootstrap .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+.scope-bootstrap .btn-group-vertical > .btn + .btn,
+.scope-bootstrap .btn-group-vertical > .btn + .btn-group,
+.scope-bootstrap .btn-group-vertical > .btn-group + .btn,
+.scope-bootstrap .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+.scope-bootstrap .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.scope-bootstrap .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.scope-bootstrap .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.scope-bootstrap .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.scope-bootstrap .btn-group-vertical > .btn-group:first-child > .btn:last-child,
+.scope-bootstrap .btn-group-vertical > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.scope-bootstrap .btn-group-vertical > .btn-group:last-child > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.scope-bootstrap .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.scope-bootstrap .btn-group-justified .btn {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+.scope-bootstrap [data-toggle="buttons"] > .btn > input[type="radio"],
+.scope-bootstrap [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+.scope-bootstrap .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.scope-bootstrap .input-group.col {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.scope-bootstrap .input-group .form-control {
+  width: 100%;
+  margin-bottom: 0;
+}
+.scope-bootstrap .input-group-lg > .form-control,
+.scope-bootstrap .input-group-lg > .input-group-addon,
+.scope-bootstrap .input-group-lg > .input-group-btn > .btn {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+select.scope-bootstrap .input-group-lg > .form-control,
+select.scope-bootstrap .input-group-lg > .input-group-addon,
+select.scope-bootstrap .input-group-lg > .input-group-btn > .btn {
+  height: 45px;
+  line-height: 45px;
+}
+textarea.scope-bootstrap .input-group-lg > .form-control,
+textarea.scope-bootstrap .input-group-lg > .input-group-addon,
+textarea.scope-bootstrap .input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+.scope-bootstrap .input-group-sm > .form-control,
+.scope-bootstrap .input-group-sm > .input-group-addon,
+.scope-bootstrap .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select.scope-bootstrap .input-group-sm > .form-control,
+select.scope-bootstrap .input-group-sm > .input-group-addon,
+select.scope-bootstrap .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+textarea.scope-bootstrap .input-group-sm > .form-control,
+textarea.scope-bootstrap .input-group-sm > .input-group-addon,
+textarea.scope-bootstrap .input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+.scope-bootstrap .input-group-addon,
+.scope-bootstrap .input-group-btn,
+.scope-bootstrap .input-group .form-control {
+  display: table-cell;
+}
+.scope-bootstrap .input-group-addon:not(:first-child):not(:last-child),
+.scope-bootstrap .input-group-btn:not(:first-child):not(:last-child),
+.scope-bootstrap .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.scope-bootstrap .input-group-addon,
+.scope-bootstrap .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.scope-bootstrap .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.scope-bootstrap .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.scope-bootstrap .input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.scope-bootstrap .input-group-addon input[type="radio"],
+.scope-bootstrap .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+.scope-bootstrap .input-group .form-control:first-child,
+.scope-bootstrap .input-group-addon:first-child,
+.scope-bootstrap .input-group-btn:first-child > .btn,
+.scope-bootstrap .input-group-btn:first-child > .dropdown-toggle,
+.scope-bootstrap .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.scope-bootstrap .input-group-addon:first-child {
+  border-right: 0;
+}
+.scope-bootstrap .input-group .form-control:last-child,
+.scope-bootstrap .input-group-addon:last-child,
+.scope-bootstrap .input-group-btn:last-child > .btn,
+.scope-bootstrap .input-group-btn:last-child > .dropdown-toggle,
+.scope-bootstrap .input-group-btn:first-child > .btn:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.scope-bootstrap .input-group-addon:last-child {
+  border-left: 0;
+}
+.scope-bootstrap .input-group-btn {
+  position: relative;
+  white-space: nowrap;
+}
+.scope-bootstrap .input-group-btn:first-child > .btn {
+  margin-right: -1px;
+}
+.scope-bootstrap .input-group-btn:last-child > .btn {
+  margin-left: -1px;
+}
+.scope-bootstrap .input-group-btn > .btn {
+  position: relative;
+}
+.scope-bootstrap .input-group-btn > .btn + .btn {
+  margin-left: -4px;
+}
+.scope-bootstrap .input-group-btn > .btn:hover,
+.scope-bootstrap .input-group-btn > .btn:active {
+  z-index: 2;
+}
+.scope-bootstrap .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.scope-bootstrap .nav:before,
+.scope-bootstrap .nav:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.scope-bootstrap .nav:after {
+  clear: both;
+}
+.scope-bootstrap .nav > li {
+  position: relative;
+  display: block;
+}
+.scope-bootstrap .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.scope-bootstrap .nav > li > a:hover,
+.scope-bootstrap .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.scope-bootstrap .nav > li.disabled > a {
+  color: #999999;
+}
+.scope-bootstrap .nav > li.disabled > a:hover,
+.scope-bootstrap .nav > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.scope-bootstrap .nav .open > a,
+.scope-bootstrap .nav .open > a:hover,
+.scope-bootstrap .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #428bca;
+}
+.scope-bootstrap .nav .open > a .caret,
+.scope-bootstrap .nav .open > a:hover .caret,
+.scope-bootstrap .nav .open > a:focus .caret {
+  border-top-color: #2a6496;
+  border-bottom-color: #2a6496;
+}
+.scope-bootstrap .nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.scope-bootstrap .nav > li > a > img {
+  max-width: none;
+}
+.scope-bootstrap .nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+.scope-bootstrap .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.scope-bootstrap .nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.scope-bootstrap .nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+.scope-bootstrap .nav-tabs > li.active > a,
+.scope-bootstrap .nav-tabs > li.active > a:hover,
+.scope-bootstrap .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.scope-bootstrap .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.scope-bootstrap .nav-tabs.nav-justified > li {
+  float: none;
+}
+.scope-bootstrap .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.scope-bootstrap .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .scope-bootstrap .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.scope-bootstrap .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.scope-bootstrap .nav-tabs.nav-justified > .active > a,
+.scope-bootstrap .nav-tabs.nav-justified > .active > a:hover,
+.scope-bootstrap .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .scope-bootstrap .nav-tabs.nav-justified > .active > a,
+  .scope-bootstrap .nav-tabs.nav-justified > .active > a:hover,
+  .scope-bootstrap .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+.scope-bootstrap .nav-pills > li {
+  float: left;
+}
+.scope-bootstrap .nav-pills > li > a {
+  border-radius: 4px;
+}
+.scope-bootstrap .nav-pills > li + li {
+  margin-left: 2px;
+}
+.scope-bootstrap .nav-pills > li.active > a,
+.scope-bootstrap .nav-pills > li.active > a:hover,
+.scope-bootstrap .nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #428bca;
+}
+.scope-bootstrap .nav-pills > li.active > a .caret,
+.scope-bootstrap .nav-pills > li.active > a:hover .caret,
+.scope-bootstrap .nav-pills > li.active > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.scope-bootstrap .nav-stacked > li {
+  float: none;
+}
+.scope-bootstrap .nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+.scope-bootstrap .nav-justified {
+  width: 100%;
+}
+.scope-bootstrap .nav-justified > li {
+  float: none;
+}
+.scope-bootstrap .nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.scope-bootstrap .nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .scope-bootstrap .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.scope-bootstrap .nav-tabs-justified {
+  border-bottom: 0;
+}
+.scope-bootstrap .nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.scope-bootstrap .nav-tabs-justified > .active > a,
+.scope-bootstrap .nav-tabs-justified > .active > a:hover,
+.scope-bootstrap .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+  .scope-bootstrap .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .scope-bootstrap .nav-tabs-justified > .active > a,
+  .scope-bootstrap .nav-tabs-justified > .active > a:hover,
+  .scope-bootstrap .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+.scope-bootstrap .tab-content > .tab-pane {
+  display: none;
+}
+.scope-bootstrap .tab-content > .active {
+  display: block;
+}
+.scope-bootstrap .nav .caret {
+  border-top-color: #428bca;
+  border-bottom-color: #428bca;
+}
+.scope-bootstrap .nav a:hover .caret {
+  border-top-color: #2a6496;
+  border-bottom-color: #2a6496;
+}
+.scope-bootstrap .nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.scope-bootstrap .close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.scope-bootstrap .close:hover,
+.scope-bootstrap .close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button.scope-bootstrap .close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.scope-bootstrap .btn-default,
+.scope-bootstrap .btn-primary,
+.scope-bootstrap .btn-success,
+.scope-bootstrap .btn-info,
+.scope-bootstrap .btn-warning,
+.scope-bootstrap .btn-danger {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .btn-default:active,
+.scope-bootstrap .btn-primary:active,
+.scope-bootstrap .btn-success:active,
+.scope-bootstrap .btn-info:active,
+.scope-bootstrap .btn-warning:active,
+.scope-bootstrap .btn-danger:active,
+.scope-bootstrap .btn-default.active,
+.scope-bootstrap .btn-primary.active,
+.scope-bootstrap .btn-success.active,
+.scope-bootstrap .btn-info.active,
+.scope-bootstrap .btn-warning.active,
+.scope-bootstrap .btn-danger.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.scope-bootstrap .btn:active,
+.scope-bootstrap .btn.active {
+  background-image: none;
+}
+.scope-bootstrap .btn-default {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#e0e0e0));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #dbdbdb;
+  text-shadow: 0 1px 0 #fff;
+  border-color: #ccc;
+}
+.scope-bootstrap .btn-default:hover,
+.scope-bootstrap .btn-default:focus {
+  background-color: #e0e0e0;
+  background-position: 0 -15px;
+}
+.scope-bootstrap .btn-default:active,
+.scope-bootstrap .btn-default.active {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb;
+}
+.scope-bootstrap .btn-primary {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#2d6ca2));
+  background-image: -webkit-linear-gradient(top, #428bca 0%, #2d6ca2 100%);
+  background-image: -moz-linear-gradient(top, #428bca 0%, #2d6ca2 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #2b669a;
+}
+.scope-bootstrap .btn-primary:hover,
+.scope-bootstrap .btn-primary:focus {
+  background-color: #2d6ca2;
+  background-position: 0 -15px;
+}
+.scope-bootstrap .btn-primary:active,
+.scope-bootstrap .btn-primary.active {
+  background-color: #2d6ca2;
+  border-color: #2b669a;
+}
+.scope-bootstrap .btn-success {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#5cb85c), to(#419641));
+  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
+  background-image: -moz-linear-gradient(top, #5cb85c 0%, #419641 100%);
+  background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #3e8f3e;
+}
+.scope-bootstrap .btn-success:hover,
+.scope-bootstrap .btn-success:focus {
+  background-color: #419641;
+  background-position: 0 -15px;
+}
+.scope-bootstrap .btn-success:active,
+.scope-bootstrap .btn-success.active {
+  background-color: #419641;
+  border-color: #3e8f3e;
+}
+.scope-bootstrap .btn-warning {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f0ad4e), to(#eb9316));
+  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+  background-image: -moz-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+  background-image: linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #e38d13;
+}
+.scope-bootstrap .btn-warning:hover,
+.scope-bootstrap .btn-warning:focus {
+  background-color: #eb9316;
+  background-position: 0 -15px;
+}
+.scope-bootstrap .btn-warning:active,
+.scope-bootstrap .btn-warning.active {
+  background-color: #eb9316;
+  border-color: #e38d13;
+}
+.scope-bootstrap .btn-danger {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9534f), to(#c12e2a));
+  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+  background-image: -moz-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+  background-image: linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #b92c28;
+}
+.scope-bootstrap .btn-danger:hover,
+.scope-bootstrap .btn-danger:focus {
+  background-color: #c12e2a;
+  background-position: 0 -15px;
+}
+.scope-bootstrap .btn-danger:active,
+.scope-bootstrap .btn-danger.active {
+  background-color: #c12e2a;
+  border-color: #b92c28;
+}
+.scope-bootstrap .btn-info {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#444444), to(#252525));
+  background-image: -webkit-linear-gradient(top, #444444 0%, #252525 100%);
+  background-image: -moz-linear-gradient(top, #444444 0%, #252525 100%);
+  background-image: linear-gradient(to bottom, #444444 0%, #252525 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff252525', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #202020;
+}
+.scope-bootstrap .btn-info:hover,
+.scope-bootstrap .btn-info:focus {
+  background-color: #252525;
+  background-position: 0 -15px;
+}
+.scope-bootstrap .btn-info:active,
+.scope-bootstrap .btn-info.active {
+  background-color: #252525;
+  border-color: #202020;
+}
+.scope-bootstrap .thumbnail,
+.scope-bootstrap .img-thumbnail {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .dropdown-menu > li > a:hover,
+.scope-bootstrap .dropdown-menu > li > a:focus {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f5f5f5), to(#e8e8e8));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+  background-color: #e8e8e8;
+}
+.scope-bootstrap .dropdown-menu > .active > a,
+.scope-bootstrap .dropdown-menu > .active > a:hover,
+.scope-bootstrap .dropdown-menu > .active > a:focus {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
+  background-image: -webkit-linear-gradient(top, #428bca 0%, #357ebd 100%);
+  background-image: -moz-linear-gradient(top, #428bca 0%, #357ebd 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+  background-color: #357ebd;
+}
+.scope-bootstrap .navbar-default {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#f8f8f8));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .navbar-default .navbar-nav > .active > a {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ebebeb), to(#f3f3f3));
+  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f3f3f3 100%);
+  background-image: -moz-linear-gradient(top, #ebebeb 0%, #f3f3f3 100%);
+  background-image: linear-gradient(to bottom, #ebebeb 0%, #f3f3f3 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff3f3f3', GradientType=0);
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .navbar-brand,
+.scope-bootstrap .navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.scope-bootstrap .navbar-inverse {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3c3c3c), to(#222222));
+  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.scope-bootstrap .navbar-inverse .navbar-nav > .active > a {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#222222), to(#282828));
+  background-image: -webkit-linear-gradient(top, #222222 0%, #282828 100%);
+  background-image: -moz-linear-gradient(top, #222222 0%, #282828 100%);
+  background-image: linear-gradient(to bottom, #222222 0%, #282828 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff282828', GradientType=0);
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+}
+.scope-bootstrap .navbar-inverse .navbar-brand,
+.scope-bootstrap .navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.scope-bootstrap .navbar-static-top,
+.scope-bootstrap .navbar-fixed-top,
+.scope-bootstrap .navbar-fixed-bottom {
+  border-radius: 0;
+}
+.scope-bootstrap .alert {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.scope-bootstrap .alert-success {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#dff0d8), to(#c8e5bc));
+  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+  background-image: -moz-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+  background-image: linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);
+  border-color: #b2dba1;
+}
+.scope-bootstrap .alert-info {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9edf7), to(#b9def0));
+  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #b9def0 100%);
+  background-image: -moz-linear-gradient(top, #d9edf7 0%, #b9def0 100%);
+  background-image: linear-gradient(to bottom, #d9edf7 0%, #b9def0 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);
+  border-color: #9acfea;
+}
+.scope-bootstrap .alert-warning {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#fcf8e3), to(#f8efc0));
+  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+  background-image: -moz-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+  background-image: linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);
+  border-color: #f5e79e;
+}
+.scope-bootstrap .alert-danger {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f2dede), to(#e7c3c3));
+  background-image: -webkit-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+  background-image: -moz-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+  background-image: linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);
+  border-color: #dca7a7;
+}
+.scope-bootstrap .progress {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ebebeb), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);
+  background-image: -moz-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);
+  background-image: linear-gradient(to bottom, #ebebeb 0%, #f5f5f5 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
+}
+.scope-bootstrap .progress-bar {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#3071a9));
+  background-image: -webkit-linear-gradient(top, #428bca 0%, #3071a9 100%);
+  background-image: -moz-linear-gradient(top, #428bca 0%, #3071a9 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #3071a9 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3071a9', GradientType=0);
+}
+.scope-bootstrap .progress-bar-success {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#5cb85c), to(#449d44));
+  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #449d44 100%);
+  background-image: -moz-linear-gradient(top, #5cb85c 0%, #449d44 100%);
+  background-image: linear-gradient(to bottom, #5cb85c 0%, #449d44 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff449d44', GradientType=0);
+}
+.scope-bootstrap .progress-bar-info {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#5bc0de), to(#31b0d5));
+  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);
+  background-image: -moz-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);
+  background-image: linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff31b0d5', GradientType=0);
+}
+.scope-bootstrap .progress-bar-warning {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f0ad4e), to(#ec971f));
+  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);
+  background-image: -moz-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);
+  background-image: linear-gradient(to bottom, #f0ad4e 0%, #ec971f 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);
+}
+.scope-bootstrap .progress-bar-danger {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9534f), to(#c9302c));
+  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c9302c 100%);
+  background-image: -moz-linear-gradient(top, #d9534f 0%, #c9302c 100%);
+  background-image: linear-gradient(to bottom, #d9534f 0%, #c9302c 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc9302c', GradientType=0);
+}
+.scope-bootstrap .list-group {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.scope-bootstrap .list-group-item.active,
+.scope-bootstrap .list-group-item.active:hover,
+.scope-bootstrap .list-group-item.active:focus {
+  text-shadow: 0 -1px 0 #3071a9;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#3278b3));
+  background-image: -webkit-linear-gradient(top, #428bca 0%, #3278b3 100%);
+  background-image: -moz-linear-gradient(top, #428bca 0%, #3278b3 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #3278b3 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3278b3', GradientType=0);
+  border-color: #3278b3;
+}
+.scope-bootstrap .panel {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.scope-bootstrap .panel-default > .panel-heading {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f5f5f5), to(#e8e8e8));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+}
+.scope-bootstrap .panel-primary > .panel-heading {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
+  background-image: -webkit-linear-gradient(top, #428bca 0%, #357ebd 100%);
+  background-image: -moz-linear-gradient(top, #428bca 0%, #357ebd 100%);
+  background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+}
+.scope-bootstrap .panel-success > .panel-heading {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#dff0d8), to(#d0e9c6));
+  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);
+  background-image: -moz-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);
+  background-image: linear-gradient(to bottom, #dff0d8 0%, #d0e9c6 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffd0e9c6', GradientType=0);
+}
+.scope-bootstrap .panel-info > .panel-heading {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9edf7), to(#c4e3f3));
+  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);
+  background-image: -moz-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);
+  background-image: linear-gradient(to bottom, #d9edf7 0%, #c4e3f3 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffc4e3f3', GradientType=0);
+}
+.scope-bootstrap .panel-warning > .panel-heading {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#fcf8e3), to(#faf2cc));
+  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);
+  background-image: -moz-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);
+  background-image: linear-gradient(to bottom, #fcf8e3 0%, #faf2cc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fffaf2cc', GradientType=0);
+}
+.scope-bootstrap .panel-danger > .panel-heading {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f2dede), to(#ebcccc));
+  background-image: -webkit-linear-gradient(top, #f2dede 0%, #ebcccc 100%);
+  background-image: -moz-linear-gradient(top, #f2dede 0%, #ebcccc 100%);
+  background-image: linear-gradient(to bottom, #f2dede 0%, #ebcccc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffebcccc', GradientType=0);
+}
+.scope-bootstrap .well {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e8e8e8), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
+  background-image: -moz-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
+  background-image: linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);
+  border-color: #dcdcdc;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+}

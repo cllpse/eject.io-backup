@@ -1,0 +1,28 @@
+.scope-reset
+{
+	*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+	@import "../bootstrap/less/normalize.less";
+}
+
+.scope-bootstrap
+{
+	@import "../bootstrap/less/variables.less";
+
+	@btn-info-color: #fff;
+	@btn-info-bg: #444;
+	@btn-info-border: darken(@btn-info-bg, 5%);
+
+	@import "../bootstrap/less/mixins.less";
+	@import "../bootstrap/less/scaffolding.less";
+	@import "../bootstrap/less/type.less";
+	@import "../bootstrap/less/forms.less";
+	@import "../bootstrap/less/buttons.less";
+	@import "../bootstrap/less/dropdowns.less";
+	@import "../bootstrap/less/component-animations.less";
+	@import "../bootstrap/less/button-groups.less";
+	@import "../bootstrap/less/input-groups.less";
+	@import "../bootstrap/less/navs.less";
+	@import "../bootstrap/less/close.less";
+	@import "../bootstrap/less/theme.less";
+}

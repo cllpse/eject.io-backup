@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>mediaqueries</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+		<style>
+
+			ul
+			{
+				width: 320px;
+			}
+
+			li
+			{
+				color: #ccc;
+				font-size: 16px;
+				margin-bottom: 16px;
+			}
+
+			@media (min-width: 320px)  /* smartphones, iPhone, portrait 480x320 phones */
+			{
+				li.a { color: #000; }
+			}
+
+			@media (min-width: 480px) /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide */
+			{
+				li.b { color: #000; }
+			}
+
+			@media (min-width: 600px) /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+			{
+				li.c { color: #000; }
+			}
+
+			@media (min-width: 801px) /* tablet, landscape iPad, lo-res laptops ands desktops */
+			{
+				li.d { color: #000; }
+			}
+
+			@media (min-width: 1025px) /* big landscape tablets, laptops, and desktops */
+			{
+				li.e { color: #000; }
+			}
+
+			@media (min-width: 1281px) /* hi-res laptops and desktops */
+			{
+				li.f { color: #000; }
+			}
+
+		</style>
+
+		<!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+		<ul>
+			<li class="a">smartphones, iPhone, portrait 480x320 phones</li>
+			<li class="b">portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide</li>
+			<li class="c">portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones</li>
+			<li class="d">tablet, landscape iPad, lo-res laptops ands desktops</li>
+			<li class="e">big landscape tablets, laptops, and desktops</li>
+			<li class="f">hi-res laptops and desktops</li>
+		</ul>
+	</body>
+</html>

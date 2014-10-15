@@ -1,0 +1,91 @@
+@import (inline) "_box-sizing.css";
+@import (inline) "_normalize.css";
+@import (inline) "../owl-carousel/owl.carousel.css";
+@import (inline) "../owl-carousel/owl.theme.css";
+
+main
+{
+	padding-top: 90px;
+	margin-bottom: 110px;
+
+	h1, p, a
+	{
+		font-family: "Proxima Nova", "Helvetica Neue";
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 18px * 1.48;
+		color: #333;
+
+		strong
+		{
+			font-weight: 600;
+		}
+	}
+
+	h1, h2
+	{
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 30px * 1.48;
+		color: #555;
+	}
+
+	header
+	{
+		z-index: 9999;
+		position: fixed;
+		top: 0;
+		height: 90px;
+		width: 100%;
+		background-image: url("../img/opaque-bg.png");
+
+		&.overlay nav .call-to-action
+		{
+			opacity: 1;
+		}
+
+		nav
+		{
+			width: 960px;
+			margin: 0 auto;
+			margin-top: 34px;
+			padding: 0;
+
+			a
+			{
+				display: block;
+				float: left;
+				width: 150px;
+				height: 22px;
+				line-height: 22px;
+				background-image: url("../img/top-logo.png");
+				color: transparent;
+
+				+ a
+				{
+					float: right;
+					width: auto;
+					text-decoration: none;
+					text-transform: uppercase;
+					background-image: none;
+					color: #999;
+
+					& + a
+					{
+						margin-right: 60px;
+					}
+				}
+			}
+		}
+	}
+
+	article
+	{
+		@import "_intro.less";
+		@import "_tutorial.less";
+		@import "_tutorial-alt.less";
+		@import "_examples.less";
+		@import "_backers.less";
+		@import "_footer.less";
+	}
+}
