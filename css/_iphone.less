@@ -1,0 +1,168 @@
+article.iphone
+{
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-color: #f8f8e2;
+	text-align: center;
+
+	figure
+	{
+		&:before, &:after { background-color: #50e3c2; }
+
+		&:nth-child(1):before
+		{
+			margin-top: -110px;
+		}
+	}
+
+	h1, h2, p
+	{
+		display: inline-block;
+		margin: 0;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+		font-size: 36px;
+		font-weight: 300;
+		line-height: 36px * 1.48;
+		color: #333;
+	}
+
+	h1
+	{
+		margin-top: 20px;
+		font-size: 48px;
+		line-height: 48px * 1.48;
+		text-transform: uppercase;
+		color: #50e3c2;
+	}
+
+	h2
+	{
+		margin-top: 36px;
+		font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Roboto", Helvetica, Arial;
+		font-weight: 200;
+		color: #b9b9a9;
+		max-width: 780px;
+	}
+
+	section
+	{
+		width: 960px;
+		margin: 0 auto;
+		overflow: visible;
+
+		> img
+		{
+			float: left;
+		}
+
+		> div
+		{
+			display: inline-block;
+			width: 960px - 432 - 100;
+			margin-left: 100px;
+			text-align: left;
+
+			> a
+			{
+				display: inline-block;
+				margin-top: 80px;
+				padding: 18px;
+				border: solid 2px #FCDB42;
+				border-radius: 6px;
+				text-decoration: none;
+				text-align: left;
+				float: none;
+				clear: left;
+				transition: all 0.15s ease-out;
+
+				&:hover
+				{
+					padding: 18px 22px;
+					margin-left: -4px;
+					span { color: #FFD200; }
+				}
+
+				img
+				{
+					float: left;
+					margin-right: 18px;
+				}
+
+				span
+				{
+					display: inline;
+					font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+					font-weight: 300;
+					font-size: 36px;
+					line-height: 36px;
+					color: #FCDB42;
+					text-transform: uppercase;
+				}
+
+				span + span
+				{
+					display: block;
+					font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Roboto", Helvetica, Arial;
+					font-weight: 500;
+					font-size: 12px;
+					line-height: 12px * 1.48;
+				}
+			}
+		}
+
+		ul
+		{
+			margin: 0;
+			margin-top: 36px * 1.48;
+			padding: 0;
+			width: 360px;
+			overflow: hidden;
+
+			li
+			{
+				display: block;
+				margin-top: 21px;
+				font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Roboto", Helvetica, Arial;
+				font-weight: 200;
+				font-size: 21px;
+				line-height: 21px * 1.48;
+				color: #b9b9a9;
+
+				a
+				{
+					color: #b9b9a9;
+
+					&:hover
+					{
+						text-decoration: none;
+					}
+				}
+
+				em
+				{
+					font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+					font-weight: 300;
+					font-style: normal;
+				}
+
+				abbr
+				{
+					display: block;
+					float: left;
+					width: 40px;
+					width: 40px;
+					margin: (36px * 2) / 3 0;
+					margin-right: 36px / 2;
+					border: solid 2px #b9b9a9;
+					border-radius: 100%;
+					font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+					font-weight: 300;
+					font-size: 18px;
+					line-height: 36px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

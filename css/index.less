@@ -1,0 +1,67 @@
+@import (inline) "_box-sizing.css";
+@import (inline) "../normalize.css/normalize.css";
+
+body
+{
+	::selection { background-color: #333; color: #fff; }
+	::-moz-selection { background-color: #333; color: #fff; }
+	text-rendering: optimizeLegibility;
+
+	article
+	{
+		width: 960px;
+		margin: 0 auto;
+		overflow: hidden;
+
+
+		figure
+		{
+			width: 960px;
+			margin: 0 auto;
+
+			&:before, &:after
+			{
+				content: "";
+				display: block;
+				position: absolute;
+				background-color: #fff;
+			}
+		}
+
+		figure:first-child
+		{
+			&:before
+			{
+				width: 3px;
+				height: 40px;
+				margin-left: -100px - 3;
+				margin-top: 40px;
+			}
+		}
+
+		figure:last-child
+		{
+			&:before
+			{
+				width: 40px;
+				height: 3px;
+				margin-top: 110px - 3;
+				margin-left: 960px + 100;
+			}
+
+			&:after
+			{
+				width: 3px;
+				height: 40px - 3;
+				margin-top: 110px  - 40;
+				margin-left: 960px + 100 + 40 - 3;
+			}
+		}
+	}
+
+	@import "_bio.less";
+	@import "_eject-io.less";
+	@import "_google-chrome.less";
+	@import "_iphone.less";
+	@import "_contact.less";
+}

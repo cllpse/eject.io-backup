@@ -1,0 +1,1 @@
+$(function(){var o=$(window),r=$("header.bio").removeClass("opacity-zero");o.on("scroll",function(){var a=o.scrollTop();r.toggleClass("opacity-zero",a>10)})});
