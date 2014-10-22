@@ -562,6 +562,10 @@ body article.eject-io section + section + section {
 body article.eject-io section + section + section img {
   display: block;
   margin: 0 auto;
+  transition: all 1.5s ease-out;
+}
+body article.eject-io section + section + section img.eject-eject {
+  top: 0 !important;
 }
 body article.google-chrome {
   width: 100%;
@@ -830,6 +834,140 @@ body article.iphone section ul li abbr {
   font-size: 18px;
   line-height: 36px;
   text-align: center;
+}
+body article.apple-safari {
+  width: 100%;
+  padding-bottom: 150px;
+  background-color: #57C9E9;
+  text-align: center;
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+body article.apple-safari.opacity-zero {
+  opacity: 0;
+}
+body article.apple-safari figure:before,
+body article.apple-safari figure:after {
+  background-color: #a37959;
+}
+body article.apple-safari h1,
+body article.apple-safari h2,
+body article.apple-safari p {
+  display: inline-block;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 53.28px;
+  color: #333;
+}
+body article.apple-safari h1 {
+  margin-top: 100px;
+  font-size: 48px;
+  line-height: 71.04px;
+  text-transform: uppercase;
+  color: #a37959;
+}
+body article.apple-safari h2 {
+  margin-top: 36px;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Roboto", Helvetica, Arial;
+  font-weight: 200;
+  color: #f8faf9;
+  max-width: 560px;
+}
+body article.apple-safari section {
+  width: 960px;
+  margin: 0 auto;
+}
+body article.apple-safari section ul {
+  overflow: auto;
+  margin: 0 170px;
+  margin-top: 53.28px;
+  padding: 0;
+}
+body article.apple-safari section ul li {
+  display: block;
+  float: left;
+  width: 280px;
+  margin-top: 21px;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Roboto", Helvetica, Arial;
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 31.08px;
+  text-align: left;
+  color: #f8faf9;
+}
+body article.apple-safari section ul li a {
+  color: #f8faf9;
+}
+body article.apple-safari section ul li a:hover {
+  text-decoration: none;
+}
+body article.apple-safari section ul li abbr {
+  display: block;
+  float: left;
+  width: 40px;
+  margin: 24px 0;
+  margin-right: 18px;
+  border: solid 2px #f8faf9;
+  border-radius: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+}
+body article.apple-safari section ul li + li {
+  margin-left: 60px;
+}
+body article.apple-safari section + section {
+  margin-top: 100px;
+  text-align: center;
+}
+body article.apple-safari section + section > img {
+  display: block;
+  margin: 0 auto;
+}
+body article.apple-safari section + section + section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -240px;
+}
+body article.apple-safari section + section + section a {
+  display: inline-block;
+  padding: 18px;
+  border: solid 2px #f95471;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: left;
+  transition: all 0.15s ease-out;
+}
+body article.apple-safari section + section + section a:hover {
+  padding: 18px 22px;
+}
+body article.apple-safari section + section + section a:hover span {
+  color: #df4d67;
+}
+body article.apple-safari section + section + section a img {
+  float: left;
+  margin-right: 18px;
+}
+body article.apple-safari section + section + section a span {
+  display: inline;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Roboto", Helvetica, Arial;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #f95471;
+  text-transform: uppercase;
+}
+body article.apple-safari section + section + section a span + span {
+  display: block;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Roboto", Helvetica, Arial;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17.76px;
 }
 body article.contact {
   width: 100%;
