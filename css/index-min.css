@@ -716,6 +716,12 @@ body article.iphone figure:after {
 body article.iphone figure:nth-child(1):before {
   margin-top: -110px;
 }
+body article.iphone figure:last-child:before {
+  margin-top: 148px;
+}
+body article.iphone figure:last-child:after {
+  margin-top: 111px;
+}
 body article.iphone h1,
 body article.iphone h2,
 body article.iphone p {
